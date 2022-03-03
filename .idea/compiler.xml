@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discovery" />
+        <module name="gateway" />
         <module name="atm" />
       </profile>
       <profile name="Annotation profile for bank" enabled="true">
@@ -26,6 +27,7 @@
       <module name="atm" target="17" />
       <module name="bank" target="17" />
       <module name="discovery" target="17" />
+      <module name="gateway" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="atm" options="-parameters" />
       <module name="bank" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
     </option>
   </component>
 </project>

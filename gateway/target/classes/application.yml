@@ -1,0 +1,27 @@
+server:
+   port: 8080
+
+
+---
+management:
+    endpoints:
+          web:
+            exposure:
+               include: health,info,prometheus
+
+---
+logging:
+    file:
+      path: ./
+      name: gatewaylogfile.log
+
+---
+
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    enabled: true
