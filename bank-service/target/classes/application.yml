@@ -1,0 +1,19 @@
+logging:
+    file:
+      path: ./
+      name: logfile.log
+
+
+spring:
+    datasource:
+       url: jdbc:postgresql://localhost:5432/bank
+       username: postgres
+       password: Shkna1368
+
+
+    jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      database: POSTGRESQL
+      hibernate:
+       ddl-auto: update
+
