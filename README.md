@@ -6,7 +6,7 @@ ATM is a part of our life activity, which helps us in day transactions and busin
 # Infrastructure Design
 The overall project should consist from 2 microservices: "thin client" application (named as "atm-service", for example) and "bank-service" with disvory service ad gateway.
 
-# Teck stack:
+# Tech stack:
 java 17
 sprin boot 2.6.3
 spring cloud 2021.0.1
