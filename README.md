@@ -17,10 +17,10 @@ Feign
 
 # How to use :
 1-import projects in idea <br/>
-2-make database shcema in postgresql <br/>
+2-make database shcema (bank) in postgresql <br/>
 2-compile bank-service project for generate mapper(mapstruct) <br/>
 3-run application(after run app,seed data done); <br/>
-4-in browser open swagger ui :
+4-in browser open swagger ui : <br/>
 http://localhost:8090/swagger-ui.html <br/>
 http://localhost:8090/swagger-ui.html <br/>
 5-in swagger call these apis:<br/>
