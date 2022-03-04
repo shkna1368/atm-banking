@@ -7,10 +7,12 @@ ATM is a part of our life activity, which helps us in day transactions and busin
 The overall project should consist from 2 microservices: "thin client" application (named as "atm-service", for example) and "bank-service" with disvory service ad gateway.
 
 # Tech stack:
-java 17
-sprin boot 2.6.3
-spring cloud 2021.0.1
- eureka discovey service 
-spring cloud gateway
+java 17-
+sprin boot 2.6.3-
+spring cloud 2021.0.1-
+ eureka discovey service -
+spring cloud gateway-
+swagger-
+Feign
 
 
